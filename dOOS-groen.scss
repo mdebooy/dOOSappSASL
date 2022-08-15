@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+$primary: #9bbb59;
+$primary-invert: #6444a6;
+
+$table-striped-row-even-background-color: rgba($primary,0.2);
+$table-cell-heading-color: white;
+
+$achtergrond-licht: rgba($primary,0.05);
+
+$doos-header-text-color: white;
+
+$footer-background-color: $achtergrond-licht !default;
+$footer-color: false !default;
+$footer-padding: .5rem 1.5rem .5rem !default;
+
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+$text-strong: $primary !default;
+
+@import "../common/bulma/bulma.sass";
+@import "dOOSapp.sass";
