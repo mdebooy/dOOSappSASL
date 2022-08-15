@@ -78,18 +78,22 @@ td
   font-size: 100%
   a
     background-color: transparent !important
+  a:hover,
+  a:focus
+    color: $link-invert !important
+
 .navbar-dropdown
   font-size: 90%
   background: linear-gradient(to bottom,rgba($primary,0.2),rgba($primary,0.8))
   color: $doos-header-text-color !important
-  .navbar-item
-    a:hover,
-    a:focus
-      background-color: rgba($primary,1) !important
 
 .navbar-brand
-  font-size: 125%
+  font-size: 150% !important
   font-weight: bolder
+
+.navbar-item,
+.navbar-link
+  color: $doos-header-text-color !important
 
 .msgFatal,
 .msgError,
