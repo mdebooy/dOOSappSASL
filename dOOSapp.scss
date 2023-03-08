@@ -1,0 +1,43 @@
+$achtergrond-licht: rgba($primary,0.05);
+
+$doos-background-image: linear-gradient(to bottom,rgba($primary,0.2),rgba($primary,0.8));
+$doos-header-text-color: $doos-text-color;
+
+$navbar-background-color: transparent !default;
+$navbar-divider-background-color: $primary !default;
+$navbar-dropdown-background-color: transparent !default;
+$navbar-dropdown-item-active-background-color: transparent !default;
+$navbar-dropdown-item-active-color: $primary !default;
+$navbar-dropdown-item-hover-background-color: transparent !default;
+$navbar-dropdown-item-hover-color: $primary !default;
+$navbar-item-active-background-color: transparent !default;
+$navbar-item-active-color: $primary !default;
+$navbar-item-color: $doos-text-color !default;
+$navbar-item-hover-color: $primary !default;
+$navbar-item-hover-background-color: transparent !default;
+$navbar-tab-active-background-color: rgba($primary,0.2) !default;
+$navbar-tab-active-border-bottom-color: transparent !default;
+$navbar-tab-active-color: $primary !default;
+$navbar-tab-hover-background-color: transparent !default;
+$navbar-tab-hover-border-bottom-color: $primary !default;
+
+$tabs-border-bottom-color: rgba($primary,0.5) !default;
+$tabs-link-active-border-bottom-color: $primary !default;
+$tabs-link-active-color: $primary !default;
+$tabs-link-hover-border-bottom-color: $primary !default;
+$tabs-link-hover-color: $primary !default;
+
+$input-focus-border-color: $primary-invert !default;
+
+$link: $doos-text-color !default;
+$link-invert: $primary-invert !default;
+$link-focus-border: $primary !default;
+
+$text-strong: $primary !default;
+
+$table-striped-row-even-background-color: rgba($primary,0.2);
+$table-cell-heading-color: $doos-text-color;
+
+$footer-background-color: $achtergrond-licht !default;
+$footer-color: false !default;
+$footer-padding: .5rem 1.5rem .5rem !default;
