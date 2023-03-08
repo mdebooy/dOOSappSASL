@@ -1,6 +1,10 @@
-/*! dOOS additions  */
+a
+  color: $doos-text-color
+  &:hover
+    color: $primary-invert !important
+
 body
-  background: white
+  background: url('../images/watermark.png') no-repeat center !important
 
 p
   text-align: justify
@@ -28,6 +32,9 @@ td
   background: white
   padding: 2px
 
+.content ul
+  margin-left: 0
+
 .dataTables_wrapper
   .dataTables_paginate
     font-size: 75%
@@ -51,7 +58,7 @@ td
   .dataTables_filter
     color: $primary
     font-size: 90%
-    margin-bottom: 3px
+    margin-bottom: 8px
   .dataTables_info
     color: $primary
     font-size: 90%
@@ -72,28 +79,8 @@ td
 
 .modal-card-head,
 .navbar
-  background: linear-gradient(to bottom,rgba($primary,0.2),rgba($primary,0.8)) !important
-  background-color: transparent !important
-  color: $doos-header-text-color !important
-  font-size: 100%
-  a
-    background-color: transparent !important
-  a:hover,
-  a:focus
-    color: $link-invert !important
-
-.navbar-dropdown
-  font-size: 90%
-  background: linear-gradient(to bottom,rgba($primary,0.2),rgba($primary,0.8))
-  color: $doos-header-text-color !important
-
-.navbar-brand
-  font-size: 150% !important
-  font-weight: bolder
-
-.navbar-item,
-.navbar-link
-  color: $doos-header-text-color !important
+  background-image: $doos-background-image !important
+  font-size: 100% !important
 
 .msgFatal,
 .msgError,
@@ -104,19 +91,23 @@ td
 
 .msgError,
 .msgFatal
-  background-image: url('../images/s/dialog-error.svg')
+  background-image: url('../images/16x16/status/dialog-error.svg')
   background-repeat: no-repeat
-  color: red
+  color: #EF2929 !important
 
 .msgInfo
-  background-image: url('../images/s/dialog-information.svg')
+  background-image: url('../images/16x16/status/dialog-information.svg')
   background-repeat: no-repeat
-  color: blue
+  color: #729FCF !important
 
 .msgWarn
-  background-image: url('../images/s/dialog-warning.svg')
+  background-image: url('../images/16x16/status/dialog-warning.svg')
   background-repeat: no-repeat
-  color: #D57100
+  color: #D57100 !important
+
+.navbar-dropdown
+  font-size: 90%
+  background-image: $doos-background-image !important
 
 .negatief
   color: red
@@ -129,9 +120,88 @@ td
   border-color: rgba($primary,1) !important
   background-color: rgba($primary,0.1) !important
 
+.tabelbutton
+  cursor: pointer
+
 .table.is-striped tbody tr:not(.is-selected):nth-child(even)
   background-color: rgba($primary,0.2)
 
 .titel
   margin-top: 10px
   margin-bottom: 15px
+
+@font-face
+  font-family: 'Font Awesome 5 Free'
+  font-style: normal
+  font-weight: 900
+  src: url("../fonts/fa-solid-900.eot")
+  src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.ttf") format("truetype"), url("../fonts/fa-solid-900.svg#fontawesome") format("svg")
+
+.fa,
+.fas
+  font-family: 'Font Awesome 5 Free'
+  font-weight: 900
+
+.fa-at:before
+  content: "\f1fa"
+
+.fa-backward:before
+  content: "\f048"
+
+.fa-calendar-alt:before
+  content: "\f073"
+
+.fa-check:before
+  content: "\f00c"
+
+.fa-check-square:before
+  content: "\f14a"
+
+.fa-envelope:before
+  content: "\f0e0"
+
+.fa-euro-sign:before
+  content: "\f153"
+  
+.fa-fast-backward:before
+  content: "\f049"
+
+.fa-fast-forward:before
+  content: "\f050"
+
+.fa-file-alt:before
+  content: "\f15c"
+
+.fa-file-pdf:before
+  content: "\f1c1"
+
+.fa-film:before
+  content: "\f008"
+
+.fa-forward:before
+  content: "\f051"
+
+.fa-globe:before
+  content: "\f0ac"
+
+.fa-image:before
+  content: "\f03e"
+
+.fa-lock:before
+  content: "\f023"
+
+.fa-lock-open:before
+  content: "\f3c1"
+
+.fa-music:before
+  content: "\f001"
+
+.fa-upload:before
+  content: "\f093"
+
+.fa-user:before
+  content: "\f007"
+
+.fa-users:before
+  content: "\f0c0"
+
